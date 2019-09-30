@@ -1,0 +1,13 @@
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\bin\Debug\netcoreapp2.1\NutriSystem.Api.deps.json
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\bin\Debug\netcoreapp2.1\NutriSystem.Api.runtimeconfig.json
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\bin\Debug\netcoreapp2.1\NutriSystem.Api.runtimeconfig.dev.json
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\bin\Debug\netcoreapp2.1\NutriSystem.Api.dll
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\bin\Debug\netcoreapp2.1\NutriSystem.Api.pdb
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\obj\Debug\netcoreapp2.1\NutriSystem.Api.csproj.CoreCompileInputs.cache
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\obj\Debug\netcoreapp2.1\NutriSystem.Api.RazorAssemblyInfo.cache
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\obj\Debug\netcoreapp2.1\NutriSystem.Api.RazorAssemblyInfo.cs
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\obj\Debug\netcoreapp2.1\NutriSystem.Api.AssemblyInfoInputs.cache
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\obj\Debug\netcoreapp2.1\NutriSystem.Api.AssemblyInfo.cs
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\obj\Debug\netcoreapp2.1\NutriSystem.Api.RazorTargetAssemblyInfo.cache
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\obj\Debug\netcoreapp2.1\NutriSystem.Api.dll
+C:\Projeto NutriSystem\NutriSystem\NutriSystem.Api\obj\Debug\netcoreapp2.1\NutriSystem.Api.pdb
