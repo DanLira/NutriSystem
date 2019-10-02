@@ -11800,31 +11800,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\d.da.silva.junior\\.nuget\\packages\\": {},
+    "C:\\Users\\rafael.j.dos.santos\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projeto NutriSystem\\NutriSystem\\NutriSystem.Api\\NutriSystem.Api.csproj",
+      "projectUniqueName": "C:\\Users\\rafael.j.dos.santos\\Desktop\\NUTRISYSTEM CODIGO\\NutriSystem\\NutriSystem.Api\\NutriSystem.Api.csproj",
       "projectName": "NutriSystem.Api",
-      "projectPath": "C:\\Projeto NutriSystem\\NutriSystem\\NutriSystem.Api\\NutriSystem.Api.csproj",
-      "packagesPath": "C:\\Users\\d.da.silva.junior\\.nuget\\packages\\",
-      "outputPath": "C:\\Projeto NutriSystem\\NutriSystem\\NutriSystem.Api\\obj\\",
+      "projectPath": "C:\\Users\\rafael.j.dos.santos\\Desktop\\NUTRISYSTEM CODIGO\\NutriSystem\\NutriSystem.Api\\NutriSystem.Api.csproj",
+      "packagesPath": "C:\\Users\\rafael.j.dos.santos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rafael.j.dos.santos\\Desktop\\NUTRISYSTEM CODIGO\\NutriSystem\\NutriSystem.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\d.da.silva.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rafael.j.dos.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/GSCIntegradora/_packaging/Amaw@Local/nuget/v3/index.json": {}
+        "https://azuldevops.pkgs.visualstudio.com/_packaging/AzulNuget/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -11852,6 +11853,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
