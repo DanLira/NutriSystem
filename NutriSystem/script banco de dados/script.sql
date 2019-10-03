@@ -16,7 +16,7 @@ create table nutricionista(
 	nome varchar(100) not null,
 	crn varchar(20) not null,
 	sexo char(1) not null,
-	email varchar(100)
+	email varchar(100),
 
 	atdNutPediatrica bit,
 	atdNutClinica bit,
@@ -54,7 +54,8 @@ create table consultorio(
 	telefone  varchar(20), 
 	instagram varchar(50),
 	facebook varchar(50), 
-	whatsapp varchar(50)
+	whatsapp varchar(50),
+    horarioFuncionamento varchar(30)
 )
 
 create table nutricionistaConsultorio(
