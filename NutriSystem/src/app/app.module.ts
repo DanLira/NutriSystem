@@ -15,13 +15,15 @@ import { CadastroPacienteComponent, MY_FORMATS } from './cadastro-paciente/cadas
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule, MAT_DATE_LOCALE, DateAdapter, MAT_DATE_FORMATS } from '@angular/material/core';
 import { MomentDateAdapter } from '@angular/material-moment-adapter';
+import { CadastroConsultorioComponent } from './cadastro-consultorio/cadastro-consultorio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastroNutricionistaComponent,
     LoginComponent,
-    CadastroPacienteComponent
+    CadastroPacienteComponent,
+    CadastroConsultorioComponent
   ],
   imports: [
     

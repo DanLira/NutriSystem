@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { FormControl, FormBuilder, Validators } from '@angular/forms';
 import { DateAdapter, MAT_DATE_FORMATS, MAT_DATE_LOCALE } from '@angular/material';
 import { MomentDateModule, MomentDateAdapter } from '@angular/material-moment-adapter';
  
@@ -23,6 +23,7 @@ export const MY_FORMATS = {
   styleUrls: ['./cadastro-paciente.component.scss']
 })
 export class CadastroPacienteComponent implements OnInit {
+  formsRegister: any;
  
 
   constructor(private readonly _formBuilder: FormBuilder,) { }
@@ -37,9 +38,5 @@ export class CadastroPacienteComponent implements OnInit {
     });
 
   }
-
-
-
-
 
 }
