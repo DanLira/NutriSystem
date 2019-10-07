@@ -1,55 +1,60 @@
 <section>
-        <div class="container-fluid">
+  <div class="container-fluid">
+    <div class="col-12">
+      <mat-card>
+        <div class="row">
           <div class="col-12">
-            <mat-card >
-              <div class="row">
-                <div class="col-12">
-                  <mat-card-title>Cadastro de Paciente
-                  </mat-card-title>
-                  <form  class="row">
-                    <mat-form-field class="col-5" appearance="outline">
-                        <mat-label>Nome</mat-label>
-                      <input matInput placeholder="Nome" required  >
-                    </mat-form-field>
-                    <mat-form-field class="col-4" appearance="outline">
-                      <mat-label>Email</mat-label>
-                      <input matInput placeholder="Email" required  >
-                    </mat-form-field>
-                    <mat-form-field class="col-2" appearance="outline">
-                        <mat-label>Sexo</mat-label>
-                            <select matNativeControl required>
-                             <option>Selecione</option>
-                              <option value="Masculino">Masculino</option>
-                              <option value="Feminino">Feminino</option>
-                            </select>
-                  </mat-form-field>
-                  <mat-form-field class="col-4" appearance="outline">
-                    <input matInput [matDatepicker]="picker" placeholder="Data de nascimento" >
-                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-                    <mat-datepicker #picker></mat-datepicker>
-                  </mat-form-field>
-                <mat-form-field class="col-4" appearance="outline">
-                    <mat-label>Telefone</mat-label>
-                        <input matInput placeholder="Telefone" required  >
-                </mat-form-field>
-                  </form>
-                </div>
-              </div>
-              <div class="row">
-                  <div class="col-sm-12 col-md-1 offset-md-10 mt-4">
-                      <button mat-raised-button class="col-12 mat-primary" (click)="clearUsers()">Limpar</button>
-                    </div>
-                <div class="col-sm-12 col-md-1  mt-4">
-                  <button mat-raised-button class="col-12"  (click)="saveUsers()">Salvar</button>
-                </div>
-              </div>
-            </mat-card>
-          </div>
-          <div class="col-12 mt-2">
-            
+            <mat-card-title>Cadastro de Paciente
+            </mat-card-title>
+            <form class="row">
+              <mat-form-field class="col-5" appearance="outline">
+                <mat-label>Nome</mat-label>
+                <input matInput placeholder="Nome" required>
+              </mat-form-field>
+              <mat-form-field class="col-4" appearance="outline">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="Email" required>
+              </mat-form-field>
+              <mat-form-field class="col-2" appearance="outline">
+                <mat-label>Sexo</mat-label>
+                <select matNativeControl required>
+                  <option>Selecione</option>
+                  <option value="Masculino">Masculino</option>
+                  <option value="Feminino">Feminino</option>
+                </select>
+              </mat-form-field>
+              <mat-form-field class="col-4" appearance="outline">
+                <input matInput [matDatepicker]="picker" placeholder="Data de nascimento">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+              <mat-form-field class="col-4" appearance="outline">
+                <mat-label>Telefone</mat-label>
+                <input matInput placeholder="Telefone" required>
+              </mat-form-field>
+              <mat-form-field class="col-3" appearance="outline">
+                <mat-label>Senha</mat-label>
+                <input matInput placeholder="Senha" required>
+            </mat-form-field>
+            <mat-form-field class="col-3" appearance="outline">
+                <mat-label>Confirme a Senha</mat-label>
+                <input matInput placeholder="Confirme a Senha" required>
+            </mat-form-field>
+            </form>
           </div>
         </div>
-      </section>
-      
-      
-      
+        <div class="row">
+          <div class="col-sm-12 col-md-1 offset-md-10 mt-4">
+            <button mat-raised-button class="col-12 mat-primary" (click)="clearUsers()">Limpar</button>
+          </div>
+          <div class="col-sm-12 col-md-1  mt-4">
+            <button mat-raised-button class="col-12" (click)="saveUsers()">Salvar</button>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+    <div class="col-12 mt-2">
+
+    </div>
+  </div>
+</section>

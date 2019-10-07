@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CadastroNutricionistaComponent } from './cadastro-nutricionista/cadastro-nutricionista.component';
 import { CadastroPacienteComponent } from './cadastro-paciente/cadastro-paciente.component';
 import { CadastroConsultorioComponent } from './cadastro-consultorio/cadastro-consultorio.component';
+import { MarcarConsultaComponent } from './marcar-consulta/marcar-consulta.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'cadastroConsultorio',
     component: CadastroConsultorioComponent,
+  },
+  {
+    path: 'marcarConsulta',
+    component: MarcarConsultaComponent,
   }
 
 ];

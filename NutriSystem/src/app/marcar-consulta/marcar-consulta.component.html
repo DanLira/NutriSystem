@@ -1,0 +1,66 @@
+<section>
+    <div class="container-fluid">
+        <div class="col-12">
+            <mat-card>
+                <div class="row">
+                    <div class="col-12">
+                        <mat-card-title>Pesquisar Consultórios
+                        </mat-card-title>
+                        <form class="row">
+                            <mat-form-field class="col-4" appearance="outline">
+                                <mat-label>Consultórios</mat-label>
+                                <select matNativeControl required>
+                                    <option>Selecione</option>
+                                    <option value="Masculino">Consutorio 1</option>
+                                    <option value="Feminino">Consultorio 2</option>
+                                </select>
+                            </mat-form-field>
+                            <mat-form-field class="col-2" appearance="outline">
+                                <mat-label>Bairro</mat-label>
+                                <input matInput placeholder="Bairro" id="inputNome" >
+                            </mat-form-field>
+                            <mat-form-field class="col-2" appearance="outline">
+                                <mat-label>Cidade</mat-label>
+                                <input matInput placeholder="Cidade" id="inputNome" >
+                            </mat-form-field>
+                            <mat-form-field class="col-2" appearance="outline">
+                                <mat-label>Razão Social</mat-label>
+                                <input matInput placeholder="Razão Social" id="inputNome" >
+                            </mat-form-field>
+                            <div class="col-sm-12 col-md-2  mt-3">
+                                <button mat-raised-button class="col-12 mat-primary"
+                                    (click)="saveUsers()">Pesquisar Consultórios</button>
+                            </div>                         
+                        </form>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+    </div>
+</section>
+<section>
+        <div class="container-fluid">
+            <div class="col-12">
+                <mat-card>
+                    <div class="row">
+                        <div class="col-12">
+                            <mat-card-title>Marcar Consulta
+                            </mat-card-title>
+                            <form class="row">
+                                <mat-form-field class="col-4" appearance="outline">
+                                    <mat-label>Nutricionista</mat-label>
+                                    <select matNativeControl required>
+                                        <option>Selecione</option>
+                                        <option value="Nutricionista 1">Nutricionista 1</option>
+                                        <option value="Nutricionista 2">Nutricionista 2</option>
+                                    </select>
+                                </mat-form-field>
+                           
+                               
+                            </form>
+                        </div>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </section>

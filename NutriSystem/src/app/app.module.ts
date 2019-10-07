@@ -16,6 +16,9 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule, MAT_DATE_LOCALE, DateAdapter, MAT_DATE_FORMATS } from '@angular/material/core';
 import { MomentDateAdapter } from '@angular/material-moment-adapter';
 import { CadastroConsultorioComponent } from './cadastro-consultorio/cadastro-consultorio.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MarcarConsultaComponent } from './marcar-consulta/marcar-consulta.component';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +26,8 @@ import { CadastroConsultorioComponent } from './cadastro-consultorio/cadastro-co
     CadastroNutricionistaComponent,
     LoginComponent,
     CadastroPacienteComponent,
-    CadastroConsultorioComponent
+    CadastroConsultorioComponent,
+    MarcarConsultaComponent
   ],
   imports: [
     
@@ -37,7 +41,8 @@ import { CadastroConsultorioComponent } from './cadastro-consultorio/cadastro-co
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCheckboxModule
   ],
   providers: [MatDatepickerModule,
     { provide: MAT_DATE_LOCALE, useValue: 'it' }, 
